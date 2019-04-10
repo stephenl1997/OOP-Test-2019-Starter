@@ -27,6 +27,9 @@ public class UI extends PApplet
 		separate(92);
 	}
 
+	private void size(int i, int j) {
+	}
+
 	public void setup() 
 	{
 	}
