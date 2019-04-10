@@ -28,10 +28,12 @@ public class UI extends PApplet
 	}
 
 	private void size(int i, int j) {
+
 	}
 
 	public void setup() 
 	{
+		
 	}
 	
 	public void draw()

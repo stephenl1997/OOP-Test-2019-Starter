@@ -1,8 +1,7 @@
 package ie.tudublin;
 
-import java.util.ArrayList;
-import processing.data.Table;
-import processing.data.TableRow;
+import javax.swing.text.TableView.TableRow;
+import processing.data.table;
 
 //imports don't appear to work
 
@@ -13,7 +12,7 @@ public class colour
 
 
         for (TableRow row : table.rows()) {
-            Object colour = new colour(row);
+            Object colour = new colour();
             ((Object) colour).add(colour);
         }
     }
